@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'next/link';
+import  Link  from 'next/link';
 
 const ActionHome = () => {
   return (
@@ -15,7 +15,7 @@ const ActionHome = () => {
                and get to know our passionate and experienced design team.
                Discover how we can help your business thrive in the digital world. Let’s build something great together.
               </p>
-              <Link className="btn btn-main btn-solid-border" to="/contact">Connect with US</Link>
+              <Link className="btn btn-main btn-solid-border" href="/contact">Connect with US</Link>
             </div>
           </div>
         </div>

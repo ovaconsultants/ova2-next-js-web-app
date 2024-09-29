@@ -1,4 +1,3 @@
-// pages/home.js or app/page.js
 import SEO from '../components/seo';
 import { SEO as seoConstants } from '../../src/constants/seoConstants';
 import AboutHome from './aboutHome/aboutHome';
@@ -22,9 +21,9 @@ const HomePage=()=> {
       <main>
       <SliderHome />
             <AboutHome />
-            {/* <PortfolioHome/> */}
-            {/* <ServiceHome/>
-            <ActionHome/> */}
+            <PortfolioHome/>
+            <ServiceHome/>
+            <ActionHome/>
       </main>
     </>
   );

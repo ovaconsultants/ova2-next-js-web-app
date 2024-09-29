@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'next/link';
+import  Link  from 'next/link';
 
 const PortfolioHome = () => {
   return (
@@ -19,7 +19,8 @@ const PortfolioHome = () => {
             <b>Innovation-Driven:</b> We stay ahead of industry trends and continuously innovate to provide our clients with the most effective and efficient solutions. Our commitment to excellence ensures we deliver high-quality results every time.
             </p>
             </div>
-            <Link to="/projects" className="btn btn-view-works">View Works</Link>
+            <Link href="/projects" className="btn btn-view-works">View Works</Link>
+
           </div>
         </div>
       </div>
