@@ -22,8 +22,8 @@ const HomePage=()=> {
       <main>
       <SliderHome />
             <AboutHome />
-            {/* <PortfolioHome/>
-            <ServiceHome/>
+            {/* <PortfolioHome/> */}
+            {/* <ServiceHome/>
             <ActionHome/> */}
       </main>
     </>
