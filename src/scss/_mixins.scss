@@ -17,7 +17,7 @@
 }
 
 // rotate
-@mixin rotate ($deg) {
+@mixin rotate($deg) {
   @include transform(rotate(#{$deg}deg));
 }
 
@@ -27,17 +27,17 @@
 }
 
 // translate
-@mixin translate ($x, $y) {
+@mixin translate($x, $y) {
   @include transform(translate($x, $y));
 }
 
 // skew
-@mixin skew ($x, $y) {
+@mixin skew($x, $y) {
   @include transform(skew(#{$x}deg, #{$y}deg));
 }
 
 //transform origin
-@mixin transform-origin ($origin) {
+@mixin transform-origin($origin) {
   moz-transform-origin: $origin;
   -o-transform-origin: $origin;
   -ms-transform-origin: $origin;

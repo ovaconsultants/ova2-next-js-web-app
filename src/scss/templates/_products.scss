@@ -23,7 +23,7 @@
     }
 
     &:before {
-      transition: .3s all;
+      transition: 0.3s all;
       opacity: 0;
       background: rgba(0, 0, 0, 0.6);
       content: '';
@@ -68,7 +68,6 @@
   &:hover .product-thumb {
     &:before {
       opacity: 1;
-
     }
   }
 
@@ -92,7 +91,6 @@
     }
   }
 }
-
 
 .product-modal {
   background: rgba(255, 255, 255, 0.9);
@@ -189,11 +187,9 @@
           border-bottom: 1px solid #dedede;
         }
       }
-
     }
   }
 }
-
 
 .product-shorting {
   margin-bottom: 30px;
@@ -201,7 +197,6 @@
     margin-right: 15px;
   }
 }
-
 
 // sidebar scss
 .product-category {

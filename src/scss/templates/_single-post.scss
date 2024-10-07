@@ -31,7 +31,7 @@
       display: block;
     }
 
-    >.pull-left {
+    > .pull-left {
       padding-right: 20px;
       @include mobile {
         display: inline-block;
@@ -102,7 +102,6 @@
   }
 }
 
-
 .single-blog {
   background-color: #fff;
   margin-bottom: 50px;
@@ -165,7 +164,6 @@
   margin-top: 35px;
 }
 
-
 .author-about {
   margin-top: 40px;
 }
@@ -174,14 +172,12 @@
   margin-right: 20px;
 }
 
-.post-author>img {
+.post-author > img {
   border: 1px solid #dedede;
   max-width: 120px;
   padding: 5px;
   width: 100%;
 }
-
-
 
 .comment-list {
   ul {
@@ -192,7 +188,6 @@
     }
   }
 }
-
 
 .comment-wrap {
   border: 1px solid #dedede;
@@ -225,9 +220,7 @@
       margin-top: 15px;
     }
   }
-
 }
-
 
 .comment-reply-form {
   margin-top: 80px;

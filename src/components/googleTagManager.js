@@ -1,4 +1,4 @@
-"use client"; // Ensures this component runs on the client-side
+'use client'; // Ensures this component runs on the client-side
 import { useEffect } from 'react';
 
 const GoogleTagManager = ({ gtmId }) => {

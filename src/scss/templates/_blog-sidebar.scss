@@ -47,7 +47,7 @@
       li {
         a {
           color: #837f7e;
-          @include transition (all, 0.3s, ease);
+          @include transition(all, 0.3s, ease);
           border: 1px solid #eee;
           display: block;
           padding: 8px 15px;
@@ -83,7 +83,7 @@
           border: 1px solid #dedede;
           border-radius: 30px;
           font-size: 14px;
-          @include transition (all, 0.3s, ease);
+          @include transition(all, 0.3s, ease);
 
           &:hover {
             color: $light;
@@ -94,5 +94,4 @@
       }
     }
   }
-
 }

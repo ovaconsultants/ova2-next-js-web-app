@@ -2,13 +2,13 @@
 import SEO from '../components/SEO';
 import { SEO as seoConstants } from '../constant.js';
 
-const Home=()=> {
+const Home = () => {
   const seoData = seoConstants.home;
 
   return (
     <>
-      <SEO 
-        title={seoData.title} 
+      <SEO
+        title={seoData.title}
         description={seoData.description}
         canonical={seoData.canonical}
         openGraph={seoData.openGraph}
@@ -19,5 +19,5 @@ const Home=()=> {
       </main>
     </>
   );
-}
+};
 export default Home;

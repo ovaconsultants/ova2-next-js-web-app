@@ -1,1 +1,1 @@
-export const companyName="OVA2 Consultants";
+export const companyName = 'OVA2 Consultants';
