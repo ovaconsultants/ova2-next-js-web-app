@@ -3,6 +3,7 @@ import { SEO as seoConstants } from '../../src/constants/seoConstants';
 import { companyName } from '../constants/commonConstant';
 import Image from 'next/image';
 import Link from 'next/link';
+import Navbar from '@/components/navbar/navbar';
 
 const HomePage = () => {
   const seoData = seoConstants.home;
@@ -16,6 +17,7 @@ const HomePage = () => {
         openGraph={seoData.openGraph}
         twitter={seoData.twitter}
       />
+       <Navbar />
       <main>
         <section className="slider">
           <div className="container">
