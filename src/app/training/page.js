@@ -7,18 +7,18 @@ export default function Training() {
   const seoData = seoConstants.training;
   return (
     <>
-         <SEO
+      <SEO
         title={seoData.title}
         description={seoData.description}
         canonical={seoData.canonical}
         openGraph={seoData.openGraph}
         twitter={seoData.twitter}
       />
-  
-    <main className={styles.main}>
-      <h1>Our Training</h1>
-      <p>Information about our training programs.</p>
-    </main>
+
+      <main className={styles.main}>
+        <h1>Our Training</h1>
+        <p>Information about our training programs.</p>
+      </main>
     </>
   );
 }

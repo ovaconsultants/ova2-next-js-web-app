@@ -84,11 +84,13 @@ export const SEO = {
   },
   services: {
     title: 'Services - Ova2 Consultants',
-    description: 'Discover the wide range of services we offer at Ova2 Consultants.',
+    description:
+      'Discover the wide range of services we offer at Ova2 Consultants.',
     canonical: 'https://ova2consultants.com/services',
     openGraph: {
       title: 'Services - Ova2 Consultants',
-      description: 'Discover the wide range of services we offer at Ova2 Consultants.',
+      description:
+        'Discover the wide range of services we offer at Ova2 Consultants.',
       url: 'https://ova2consultants.com/services',
       type: 'website',
       image: 'https://ova2consultants.com/og-services-image.jpg',
@@ -97,7 +99,8 @@ export const SEO = {
       card: 'summary_large_image',
       site: '@ova2consultants',
       title: 'Services - Ova2 Consultants',
-      description: 'Discover the wide range of services we offer at Ova2 Consultants.',
+      description:
+        'Discover the wide range of services we offer at Ova2 Consultants.',
       image: 'https://ova2consultants.com/twitter-services-image.jpg',
     },
   },

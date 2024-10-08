@@ -17,7 +17,7 @@ const HomePage = () => {
         openGraph={seoData.openGraph}
         twitter={seoData.twitter}
       />
-       <Navbar />
+      <Navbar />
       <main>
         <section className="slider">
           <div className="container">
