@@ -1,4 +1,3 @@
-module.exports = {
-  siteUrl: 'https://ova2consultants.com',
-  generateRobotsTxt: true, // Generates robots.txt file
-};
+export const siteUrl = 'https://ova2consultants.com';
+export const generateRobotsTxt = true;
+export const sitemapSize = 7000;
