@@ -1,10 +1,12 @@
 // constant.js
-export const SEO = {
-  home: {
+
+  export const homePageMetadata = {
     title: 'Home - Ova2 Consultants',
     description:
       'Welcome to Ova2 Consultants, where innovation meets expertise.',
-    canonical: 'https://ova2consultants.com/',
+     alternates: {
+    canonical: 'https://ova2consultants.com/', // Adding canonical URL
+  },
     openGraph: {
       title: 'Home - Ova2 Consultants',
       description:
@@ -21,8 +23,8 @@ export const SEO = {
         'Welcome to Ova2 Consultants, where innovation meets expertise.',
       image: 'https://ova2consultants.com/twitter-image.jpg', // Twitter image
     },
-  },
-  about: {
+  };
+  export const aboutPageMetadata =  {
     title: 'About Us - Ova2 Consultants',
     description: 'Learn more about Ova2 Consultants and our mission.',
     canonical: 'https://ova2consultants.com/about',
@@ -40,8 +42,8 @@ export const SEO = {
       description: 'Learn more about Ova2 Consultants and our mission.',
       image: 'https://ova2consultants.com/twitter-about-image.jpg',
     },
-  },
-  training: {
+  };
+  export const trainingPageMetadata =  {
     title: 'Training - Ova2 Consultants',
     description:
       'Enhance your skills with expert-led training programs at Ova2 Consultants.',
@@ -62,8 +64,8 @@ export const SEO = {
         'Enhance your skills with expert-led training programs at Ova2 Consultants.',
       image: 'https://ova2consultants.com/twitter-training-image.jpg',
     },
-  },
-  projects: {
+  };
+  export const projectPageMetadata =  {
     title: 'Projects - Ova2 Consultants',
     description: 'Explore our portfolio of successful projects.',
     canonical: 'https://ova2consultants.com/projects',
@@ -81,8 +83,8 @@ export const SEO = {
       description: 'Explore our portfolio of successful projects.',
       image: 'https://ova2consultants.com/twitter-projects-image.jpg',
     },
-  },
-  services: {
+  };
+  export const servicesPageMetadata =  {
     title: 'Services - Ova2 Consultants',
     description:
       'Discover the wide range of services we offer at Ova2 Consultants.',
@@ -103,6 +105,6 @@ export const SEO = {
         'Discover the wide range of services we offer at Ova2 Consultants.',
       image: 'https://ova2consultants.com/twitter-services-image.jpg',
     },
-  },
+  }
   // Add more pages as necessary
-};
+

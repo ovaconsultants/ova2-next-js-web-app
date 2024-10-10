@@ -1,19 +1,10 @@
-// src/app/services/Services.js
-import SEO from '@/components/seo';
 import styles from './page.module.scss';
-import { SEO as seoConstants } from '../../constants/seoConstants';
+import { servicesPageMetadata } from '../../constants/seoConstants';
+export const metadata = servicesPageMetadata;
 
 export default function Services() {
-  const seoData = seoConstants.services;
   return (
     <>
-      <SEO
-        title={seoData.title}
-        description={seoData.description}
-        canonical={seoData.canonical}
-        openGraph={seoData.openGraph}
-        twitter={seoData.twitter}
-      />
       <main className={styles.main}>
         <h1>Our Services</h1>
         <p>Details about the services we offer.</p>

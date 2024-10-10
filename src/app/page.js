@@ -1,22 +1,14 @@
-import SEO from '../components/seo';
-import { SEO as seoConstants } from '../../src/constants/seoConstants';
+import { homePageMetadata } from '../../src/constants/seoConstants';
 import { companyName } from '../constants/commonConstant';
 import Image from 'next/image';
 import Link from 'next/link';
 import Navbar from '@/components/navbar/navbar';
+export const metadata = homePageMetadata;
 
-const HomePage = () => {
-  const seoData = seoConstants.home;
+export default async function HomePage() {
 
   return (
     <>
-      <SEO
-        title={seoData.title}
-        description={seoData.description}
-        canonical={seoData.canonical}
-        openGraph={seoData.openGraph}
-        twitter={seoData.twitter}
-      />
       <Navbar />
       <main>
         <section className="slider">
@@ -256,5 +248,4 @@ const HomePage = () => {
       </main>
     </>
   );
-};
-export default HomePage;
+}
