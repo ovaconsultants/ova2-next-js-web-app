@@ -1,12 +1,11 @@
-import { homePageMetadata } from '../../src/constants/seoConstants';
+import { homePageMetadata } from '../constants/seoConstants';
 import { companyName } from '../constants/commonConstant';
 import Image from 'next/image';
 import Link from 'next/link';
-import Navbar from '@/components/navbar/navbar';
+import Navbar from '../components/navbar/navbar';
 export const metadata = homePageMetadata;
 
 export default async function HomePage() {
-
   return (
     <>
       <Navbar />

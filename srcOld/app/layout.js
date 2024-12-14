@@ -1,4 +1,4 @@
-import GoogleTagManager from '@/components/googleTagManager';
+import GoogleTagManager from '../components/googleTagManager';
 import './globals.css';
 //import './App.css';
 //import './plugins/bootstrap/bootstrap.min.css';

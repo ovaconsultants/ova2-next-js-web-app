@@ -4,6 +4,9 @@ const nextConfig = {
   images: {
     unoptimized: true, // Disable Image Optimization for static export
   },
+  experimental: {
+    ppr: 'incremental',
+  },
 };
 
 export default nextConfig;
