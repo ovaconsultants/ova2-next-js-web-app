@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://ova2consultants.com
+
+# Sitemaps
+Sitemap: https://ova2consultants.com/sitemap.xml

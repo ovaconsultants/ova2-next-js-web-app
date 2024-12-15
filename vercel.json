@@ -1,0 +1,15 @@
+{
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://www.ova2consultancy.com",
+      "permanent": true
+    }
+  ]
+}
