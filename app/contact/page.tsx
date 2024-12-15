@@ -1,13 +1,12 @@
-import React from 'react'
-import InfoSection from '../../components/InfoSection'
-
+import React from 'react';
+import InfoSection from '../../components/InfoSection';
 
 const Page: React.FC = () => {
   return (
     <>
-    < InfoSection/>
+      <InfoSection />
     </>
-  )
-}
+  );
+};
 
-export default Page
+export default Page;

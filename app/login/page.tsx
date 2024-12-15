@@ -4,7 +4,7 @@ import ServiceSection from '../../components/ServiceSection';
 const Page: React.FC = () => {
   return (
     <>
-      <ServiceSection />
+     
     </>
   );
 };

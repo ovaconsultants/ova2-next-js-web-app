@@ -1,6 +1,6 @@
 // components/ServiceSection.tsx
-import React from 'react'
-import Image from 'next/image'
+import React from 'react';
+import Image from 'next/image';
 
 const ServiceSection: React.FC = () => {
   return (
@@ -12,19 +12,26 @@ const ServiceSection: React.FC = () => {
               Our <span>Services</span>
             </h2>
             <p>
-              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration
             </p>
           </div>
           <div className="row">
             <div className="col-md-4">
               <div className="box">
                 <div className="img-box">
-                  <Image width={200} height={200} src="/images/s1.png" alt="Service 1" />
+                  <Image
+                    width={200}
+                    height={200}
+                    src="/images/s1.png"
+                    alt="Service 1"
+                  />
                 </div>
                 <div className="detail-box">
                   <h5>Currency Wallet</h5>
                   <p>
-                    fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                    fact that a reader will be distracted by the readable
+                    content of a page when looking at its layout.
                   </p>
                   <a href="">Read More</a>
                 </div>
@@ -33,12 +40,18 @@ const ServiceSection: React.FC = () => {
             <div className="col-md-4">
               <div className="box">
                 <div className="img-box">
-                  <Image width={200} height={200} src="/images/s2.png" alt="Service 2" />
+                  <Image
+                    width={200}
+                    height={200}
+                    src="/images/s2.png"
+                    alt="Service 2"
+                  />
                 </div>
                 <div className="detail-box">
                   <h5>Security Storage</h5>
                   <p>
-                    fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                    fact that a reader will be distracted by the readable
+                    content of a page when looking at its layout.
                   </p>
                   <a href="">Read More</a>
                 </div>
@@ -47,12 +60,18 @@ const ServiceSection: React.FC = () => {
             <div className="col-md-4">
               <div className="box">
                 <div className="img-box">
-                  <Image width={200} height={200} src="/images/s3.png" alt="Service 3" />
+                  <Image
+                    width={200}
+                    height={200}
+                    src="/images/s3.png"
+                    alt="Service 3"
+                  />
                 </div>
                 <div className="detail-box">
                   <h5>Expert Support</h5>
                   <p>
-                    fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                    fact that a reader will be distracted by the readable
+                    content of a page when looking at its layout.
                   </p>
                   <a href="">Read More</a>
                 </div>
@@ -65,7 +84,7 @@ const ServiceSection: React.FC = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default ServiceSection
+export default ServiceSection;

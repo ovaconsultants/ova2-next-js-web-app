@@ -9,24 +9,22 @@ import HeaderSection from '../components/HeaderSection';
 import FooterSection from '../components/FooterSection';
 import HeroArea from '../components/HeroArea';
 
-
 export default function RootLayout({
-    children,
+  children,
 }: {
-    children: React.ReactNode;
+  children: React.ReactNode;
 }) {
-    return (
-        <html lang="en">
-           <head>           
-            </head> 
-            <body>
-            <div className="hero_area">
-            {/* <HeroArea /> */}
-            <HeaderSection />
-                {children}
-                <FooterSection/>
-                </div>
-                </body>
-        </html>
-    );
+  return (
+    <html lang="en">
+      <head></head>
+      <body>
+        <div className="hero_area">
+          {/* <HeroArea /> */}
+          <HeaderSection />
+          {children}
+          <FooterSection />
+        </div>
+      </body>
+    </html>
+  );
 }

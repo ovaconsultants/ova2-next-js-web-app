@@ -1,13 +1,12 @@
-import React from 'react'
-import WhySection from '../../components/WhySection'
-
+import React from 'react';
+import WhySection from '../../components/WhySection';
 
 const Page: React.FC = () => {
   return (
     <>
-    <WhySection />
+      <WhySection />
     </>
-  )
-}
+  );
+};
 
-export default Page
+export default Page;

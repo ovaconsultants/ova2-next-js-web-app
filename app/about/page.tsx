@@ -1,14 +1,13 @@
-import React from 'react'
+import React from 'react';
 
-import AboutSection from '../../components/AboutSection'
-
+import AboutSection from '../../components/AboutSection';
 
 const Page: React.FC = () => {
   return (
     <>
-    <AboutSection />
+      <AboutSection />
     </>
-  )
-}
+  );
+};
 
-export default Page
+export default Page;
