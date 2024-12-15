@@ -32,6 +32,9 @@ const HeaderSection: React.FC = () => {
                 <a className="nav-link" href="/team">Team</a>
               </li>
               <li className="nav-item">
+                <a className="nav-link" href="/contact">Contact</a>
+              </li>
+              <li className="nav-item">
                 <a className="nav-link" href="#"><i className="fa fa-user" aria-hidden="true"></i> Login</a>
               </li>
               <form className="form-inline">

@@ -17,7 +17,7 @@ const Page: React.FC = () => {
       <HeroArea /> */}
       {/* <HeaderSection /> */}
       <HeroArea />
-      <SliderSection />
+      {/* <SliderSection /> */}
       <ServiceSection />
       <AboutSection />
       <WhySection />

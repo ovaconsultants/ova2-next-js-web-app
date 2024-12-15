@@ -3,18 +3,15 @@ import Image from 'next/image'
 import React from 'react'
 
 const HeroArea: React.FC = () => {
-  return (
-      <div className="hero_bg_box">
-        <div className="bg_img_box">
-          <Image  
-            width={800}
-            height={800}
-            src="/images/hero-bg.png"  
-            alt="Hero Background"
-          />
+    return (
+        <div style={{ position: 'relative', width: '100%', height: '100vh' }}>
+            <Image
+                src="/images/laptop.jpg"
+                alt="Hero Background"
+                fill
+            />
         </div>
-      </div>
-  )
+    )
 }
 
 export default HeroArea
