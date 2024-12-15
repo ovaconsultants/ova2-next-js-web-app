@@ -13,9 +13,10 @@ import FooterSection from '../components/FooterSection'
 const Page: React.FC = () => {
   return (
     <>
-      <div className="hero_area">
+      {/* <div className="hero_area">
+      <HeroArea /> */}
+      {/* <HeaderSection /> */}
       <HeroArea />
-      <HeaderSection />
       <SliderSection />
       <ServiceSection />
       <AboutSection />
@@ -23,8 +24,8 @@ const Page: React.FC = () => {
       <TeamSection />
       <ClientSection />
       <InfoSection />
-      <FooterSection />
-      </div>
+      {/* <FooterSection /> */}
+      {/* </div> */}
     </>
   )
 }
