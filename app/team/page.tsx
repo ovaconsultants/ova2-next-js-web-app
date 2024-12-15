@@ -1,13 +1,12 @@
-import React from 'react'
-import TeamSection from '../../components/TeamSection'
-
+import React from 'react';
+import TeamSection from '../../components/TeamSection';
 
 const Page: React.FC = () => {
   return (
     <>
-    <TeamSection />
+      <TeamSection />
     </>
-  )
-}
+  );
+};
 
-export default Page
+export default Page;

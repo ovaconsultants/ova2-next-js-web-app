@@ -1,5 +1,5 @@
 // components/HeaderSection.tsx
-import React from 'react'
+import React from 'react';
 
 const HeaderSection: React.FC = () => {
   return (
@@ -10,35 +10,60 @@ const HeaderSection: React.FC = () => {
             <span>Ova2 Consultants</span>
           </a>
 
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span className=""> </span>
           </button>
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav">
               <li className="nav-item active">
-                <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
+                <a className="nav-link" href="/">
+                  Home <span className="sr-only">(current)</span>
+                </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/about">About</a>
+                <a className="nav-link" href="/about">
+                  About
+                </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/service">Services</a>
+                <a className="nav-link" href="/service">
+                  Services
+                </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/why">Why Us</a>
+                <a className="nav-link" href="/why">
+                  Why Us
+                </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/team">Team</a>
+                <a className="nav-link" href="/team">
+                  Team
+                </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/contact">Contact</a>
+                <a className="nav-link" href="/contact">
+                  Contact
+                </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#"><i className="fa fa-user" aria-hidden="true"></i> Login</a>
+                <a className="nav-link" href="/">
+                  <i className="fa fa-user" aria-hidden="true"></i> Login
+                </a>
               </li>
               <form className="form-inline">
-                <button className="btn my-2 my-sm-0 nav_search-btn" type="submit">
+                <button
+                  className="btn my-2 my-sm-0 nav_search-btn"
+                  type="submit"
+                >
                   <i className="fa fa-search" aria-hidden="true"></i>
                 </button>
               </form>
@@ -47,7 +72,7 @@ const HeaderSection: React.FC = () => {
         </nav>
       </div>
     </header>
-  )
-}
+  );
+};
 
-export default HeaderSection
+export default HeaderSection;

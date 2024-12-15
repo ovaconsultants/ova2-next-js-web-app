@@ -1,6 +1,6 @@
 // components/ClientSection.tsx
-import React from 'react'
-import Image from 'next/image'
+import React from 'react';
+import Image from 'next/image';
 
 const ClientSection: React.FC = () => {
   return (
@@ -16,7 +16,13 @@ const ClientSection: React.FC = () => {
             <div className="item">
               <div className="box">
                 <div className="img-box">
-                  <Image width={200} height={200} src="/images/client1.jpg" alt="Client 1" className="box-img" />
+                  <Image
+                    width={200}
+                    height={200}
+                    src="/images/client1.jpg"
+                    alt="Client 1"
+                    className="box-img"
+                  />
                 </div>
                 <div className="detail-box">
                   <div className="client_id">
@@ -27,7 +33,9 @@ const ClientSection: React.FC = () => {
                     <i className="fa fa-quote-left" aria-hidden="true"></i>
                   </div>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam...
                   </p>
                 </div>
               </div>
@@ -35,7 +43,13 @@ const ClientSection: React.FC = () => {
             <div className="item">
               <div className="box">
                 <div className="img-box">
-                  <Image width={200} height={200} src="/images/client2.jpg" alt="Client 2" className="box-img" />
+                  <Image
+                    width={200}
+                    height={200}
+                    src="/images/client2.jpg"
+                    alt="Client 2"
+                    className="box-img"
+                  />
                 </div>
                 <div className="detail-box">
                   <div className="client_id">
@@ -46,7 +60,8 @@ const ClientSection: React.FC = () => {
                     <i className="fa fa-quote-left" aria-hidden="true"></i>
                   </div>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt...
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt...
                   </p>
                 </div>
               </div>
@@ -54,7 +69,13 @@ const ClientSection: React.FC = () => {
             <div className="item">
               <div className="box">
                 <div className="img-box">
-                  <Image width={200} height={200} src="/images/client1.jpg" alt="Client 1" className="box-img" />
+                  <Image
+                    width={200}
+                    height={200}
+                    src="/images/client1.jpg"
+                    alt="Client 1"
+                    className="box-img"
+                  />
                 </div>
                 <div className="detail-box">
                   <div className="client_id">
@@ -73,7 +94,13 @@ const ClientSection: React.FC = () => {
             <div className="item">
               <div className="box">
                 <div className="img-box">
-                  <Image width={200} height={200} src="/images/client2.jpg" alt="Client 2" className="box-img" />
+                  <Image
+                    width={200}
+                    height={200}
+                    src="/images/client2.jpg"
+                    alt="Client 2"
+                    className="box-img"
+                  />
                 </div>
                 <div className="detail-box">
                   <div className="client_id">
@@ -93,7 +120,7 @@ const ClientSection: React.FC = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default ClientSection
+export default ClientSection;
