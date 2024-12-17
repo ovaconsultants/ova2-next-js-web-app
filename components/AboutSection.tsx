@@ -28,7 +28,7 @@ const AboutSection: React.FC = () => {
           </div>
           <div className="col-md-6">
             <div className="detail-box">
-              <h3>We Are Finexo</h3>
+              <h3>We Are Ova2 Consultants</h3>
               <p>
                 There are many variations of passages of Lorem Ipsum available,
                 but the majority have suffered alteration...
