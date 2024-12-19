@@ -11,8 +11,14 @@ const AboutSection: React.FC = () => {
             About <span>Us</span>
           </h2>
           <p>
-            Magni quod blanditiis non minus sed aut voluptatum illum quisquam
-            aspernatur ullam vel beatae rerum ipsum voluptatibus
+            Welcome to OVA2 Consultants, a distinguished firm where innovation
+            seamlessly integrates with expertise. Founded with a clear vision to
+            bridge the critical gap between technology and business, we are
+            committed to delivering exceptional services in IT consulting,
+            advanced software development, and comprehensive training solutions.
+            Our unwavering dedication to excellence ensures we provide
+            transformative solutions that empower organizations to thrive in an
+            ever-evolving digital landscape.
           </p>
         </div>
         <div className="row">
@@ -30,10 +36,12 @@ const AboutSection: React.FC = () => {
             <div className="detail-box">
               <h3>We Are Ova2 Consultants</h3>
               <p>
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration...
+                Our mission is to empower businesses by delivering innovative
+                technology solutions and valuable knowledge, enabling them to
+                realize their full potential. We are dedicated to driving growth
+                and fostering innovation through customized strategies and
+                expert support.
               </p>
-              <p>Molestiae odio earum non qui cumque provident voluptates...</p>
               <a href="">Read More</a>
             </div>
           </div>

@@ -12,15 +12,18 @@ const InfoSection: React.FC = () => {
               <div className="contact_link_box">
                 <a href="">
                   <i className="fa fa-map-marker" aria-hidden="true"></i>
-                  <span>Location</span>
+                  <span>
+                    G7-1604 Nirala Greenshire Sec-2 Noida, GBN-201301, Uttar
+                    Pradesh, India
+                  </span>
                 </a>
                 <a href="">
                   <i className="fa fa-phone" aria-hidden="true"></i>
-                  <span>Call +01 1234567890</span>
+                  <span>+91-8595325822</span>
                 </a>
                 <a href="">
                   <i className="fa fa-envelope" aria-hidden="true"></i>
-                  <span>demo@gmail.com</span>
+                  <span>hr@ova2consultancy.com</span>
                 </a>
               </div>
             </div>

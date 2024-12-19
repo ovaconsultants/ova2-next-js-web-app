@@ -7,9 +7,13 @@ const ClientSection: React.FC = () => {
     <section className="client_section layout_padding">
       <div className="container">
         <div className="heading_container heading_center psudo_white_primary mb_45">
-          <h2>
-            What says our <span>Customers</span>
-          </h2>
+          <h5>
+            We create amazing digital experiences. Explore our work and design
+            approach. Check out the successful projects we&apos;ve delivered for
+            our clients and meet our dedicated, skilled design team. Learn how
+            we can help your business succeed in the digital landscape. Let’s
+            create something amazing together.
+          </h5>
         </div>
         <div className="carousel-wrap">
           <div className="owl-carousel client_owl-carousel">

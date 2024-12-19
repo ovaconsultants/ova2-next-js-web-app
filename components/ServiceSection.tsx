@@ -12,8 +12,13 @@ const ServiceSection: React.FC = () => {
               Our <span>Services</span>
             </h2>
             <p>
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration
+              At OVA2 Consultants, we provide an extensive array of services
+              meticulously crafted to cater to the diverse requirements of our
+              esteemed clients. Our areas of expertise encompass IT consulting,
+              software development, and comprehensive professional training
+              programs, enabling us to deliver well-rounded and strategic
+              solutions to address complex business challenges with precision
+              and excellence.
             </p>
           </div>
           <div className="row">
@@ -23,15 +28,17 @@ const ServiceSection: React.FC = () => {
                   <Image
                     width={200}
                     height={200}
-                    src="/images/s1.png"
+                    src="/images/branding.avif"
                     alt="Service 1"
                   />
                 </div>
                 <div className="detail-box">
-                  <h5>Currency Wallet</h5>
+                  <h5>Branding</h5>
                   <p>
-                    fact that a reader will be distracted by the readable
-                    content of a page when looking at its layout.
+                    Our branding services are designed to elevate your business
+                    by developing a distinctive and impactful brand identity. We
+                    create tailored strategies that engage your target audience
+                    and foster long-term brand loyalty.
                   </p>
                   <a href="">Read More</a>
                 </div>
@@ -48,10 +55,12 @@ const ServiceSection: React.FC = () => {
                   />
                 </div>
                 <div className="detail-box">
-                  <h5>Security Storage</h5>
+                  <h5>Web Design</h5>
                   <p>
-                    fact that a reader will be distracted by the readable
-                    content of a page when looking at its layout.
+                    Our web design services prioritize crafting visually
+                    captivating and highly intuitive websites. By combining
+                    innovative design with seamless functionality, we ensure an
+                    outstanding online experience for your users.
                   </p>
                   <a href="">Read More</a>
                 </div>
@@ -68,10 +77,12 @@ const ServiceSection: React.FC = () => {
                   />
                 </div>
                 <div className="detail-box">
-                  <h5>Expert Support</h5>
+                  <h5>App Design</h5>
                   <p>
-                    fact that a reader will be distracted by the readable
-                    content of a page when looking at its layout.
+                    Bring your ideas to life with our mobile app design
+                    services, creating captivating and interactive experiences.
+                    We emphasize intuitive layouts and smooth user interfaces to
+                    boost customer engagement and satisfaction.
                   </p>
                   <a href="">Read More</a>
                 </div>

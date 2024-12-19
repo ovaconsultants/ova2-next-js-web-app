@@ -22,9 +22,13 @@ const WhySection: React.FC = () => {
               />
             </div>
             <div className="detail-box">
-              <h5>Expert Management</h5>
+              <h5>Expert Team</h5>
               <p>
-                Incidunt odit rerum tenetur alias architecto asperiores omnis...
+                Our team is composed of distinguished experts with profound
+                experience in IT consulting, software development, and
+                professional training. We take pride in leveraging our extensive
+                knowledge and unwavering commitment to deliver unparalleled
+                solutions for every project.
               </p>
             </div>
           </div>
@@ -38,9 +42,13 @@ const WhySection: React.FC = () => {
               />
             </div>
             <div className="detail-box">
-              <h5>Secure Investment</h5>
+              <h5>Customer&apos;s approach</h5>
               <p>
-                Incidunt odit rerum tenetur alias architecto asperiores omnis...
+                We place our clients&apos; priorities at the forefront, working
+                in close collaboration to ensure their goals are successfully
+                achieved. Our solutions are thoughtfully crafted to be
+                adaptable, scalable, and perfectly aligned with your business
+                objectives.
               </p>
             </div>
           </div>
@@ -54,25 +62,12 @@ const WhySection: React.FC = () => {
               />
             </div>
             <div className="detail-box">
-              <h5>Instant Trading</h5>
+              <h5>Innovation-Driven</h5>
               <p>
-                Incidunt odit rerum tenetur alias architecto asperiores omnis...
-              </p>
-            </div>
-          </div>
-          <div className="box">
-            <div className="img-box">
-              <Image
-                width={200}
-                height={200}
-                src="/images/w4.png"
-                alt="Why choose us 4"
-              />
-            </div>
-            <div className="detail-box">
-              <h5>Happy Customers</h5>
-              <p>
-                Incidunt odit rerum tenetur alias architecto asperiores omnis...
+                We remain at the forefront of industry advancements,
+                consistently innovating to offer our clients the most efficient
+                and impactful solutions. Our unwavering dedication to excellence
+                guarantees the delivery of superior results on every occasion.
               </p>
             </div>
           </div>

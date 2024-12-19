@@ -26,8 +26,8 @@ const TeamSection: React.FC = () => {
                   />
                 </div>
                 <div className="detail-box">
-                  <h5>Joseph Brown</h5>
-                  <p>Marketing Head</p>
+                  <h5>Divyansh Singh</h5>
+                  <p>Full Stack Developer</p>
                 </div>
                 <div className="social_box">
                   <a href="#">
@@ -60,8 +60,8 @@ const TeamSection: React.FC = () => {
                   />
                 </div>
                 <div className="detail-box">
-                  <h5>Nancy White</h5>
-                  <p>Marketing Head</p>
+                  <h5>Harshit Sharma</h5>
+                  <p>UI/UX Developer</p>
                 </div>
                 <div className="social_box">
                   <a href="#">
